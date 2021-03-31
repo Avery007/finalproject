@@ -17,7 +17,8 @@ public class attack : MonoBehaviour
             {
                 Debug.Log("detection");
                 Vector3 force = new Vector3(100, 100, 5);
-                player.GetComponent<Rigidbody>().AddForce(force);
+            player.GetComponent<Rigidbody>().isKinematic = false;
+            player.GetComponent<Rigidbody>().AddForce(force);
                 //text.SetActive(true);
                 //Destroy(collision.collider.gameObject);
 
