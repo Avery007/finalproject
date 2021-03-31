@@ -10,9 +10,10 @@ public class attack : MonoBehaviour
         public GameObject player;
         //public GameObject text;
         public GameObject cube;
-        private void OnCollisionEnter(Collision collision)
-        {
-            if (collision.collider.gameObject == player)
+        private void OnTriggerEnter(Collider collision)
+    {
+        Debug.Log("check");
+        if (collision.gameObject == player)
             {
                 Debug.Log("detection");
                 Vector3 force = new Vector3(100, 100, 5);
