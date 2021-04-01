@@ -36,7 +36,7 @@ public class attack : MonoBehaviour
             {
                 //this.transform.position += (this.transform.position - target.position).normalized * speed * Time.deltaTime;
                 //this.transform.position = Vector3.Lerp(this.transform.position, target.position, 0.1f);
-                this.transform.Translate(Vector3.Normalize(target.position - this.transform.position) * 0.03f);
+                this.transform.Translate(Vector3.Normalize(target.position - this.transform.position) * 0.05f);
             }
         }
     }

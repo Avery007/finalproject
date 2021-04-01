@@ -425,3 +425,67 @@ System memory in use after: 81.2 MB.
 Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1711.
 Total: 3.260900 ms (FindLiveObjects: 0.281400 ms CreateObjectMapping: 0.060300 ms MarkObjects: 2.836700 ms  DeleteObjects: 0.080500 ms)
 
+========================================================================
+Received Import Request.
+  Time since last request: 1414.204045 seconds.
+  path: Assets/attack.cs
+  artifactKey: Guid(d9598d7fea21fd3439d916a91dfbb069) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/attack.cs using Guid(d9598d7fea21fd3439d916a91dfbb069) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '928118d4f76bdee3ca0fc75e3348509c') in 0.023343 seconds
+  Import took 0.029740 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001346 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.35 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+[ScriptCompilation] NOT recompiling all scripts because this is an import worker process. Reason to compile was: Define symbols changed
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.197 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.37 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1196 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 81.1 MB.
+System memory in use after: 81.2 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1713.
+Total: 2.799200 ms (FindLiveObjects: 0.281800 ms CreateObjectMapping: 0.057900 ms MarkObjects: 2.358000 ms  DeleteObjects: 0.099700 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 29.181700 seconds.
+  path: Assets/attack.cs
+  artifactKey: Guid(d9598d7fea21fd3439d916a91dfbb069) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/attack.cs using Guid(d9598d7fea21fd3439d916a91dfbb069) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a4353fb9e0fb679910ec98f226f1751') in 0.019011 seconds
+  Import took 0.031353 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002119 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.75 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+[ScriptCompilation] NOT recompiling all scripts because this is an import worker process. Reason to compile was: Define symbols changed
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.684 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.37 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1196 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 81.0 MB.
+System memory in use after: 81.1 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1715.
+Total: 2.643500 ms (FindLiveObjects: 0.309400 ms CreateObjectMapping: 0.050400 ms MarkObjects: 2.202600 ms  DeleteObjects: 0.078700 ms)
+
