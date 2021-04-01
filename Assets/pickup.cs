@@ -5,9 +5,11 @@ using UnityEngine;
 public class pickup : MonoBehaviour
 {
     public GameObject player;
+    public GameObject sea;
+
     public UnityEngine.UI.Text text;
     private static int number = 0;
-    //public GameObject text;
+    public GameObject message;
     private void OnCollisionEnter(Collision collision)
     {
         if (collision.collider.gameObject == player)
@@ -18,7 +20,13 @@ public class pickup : MonoBehaviour
             number = number + 1;
             text.text = "Crystal collected: " + number;
             Debug.Log(number);
-            // text.SetActive(true);
+           
+            if (number == 12)
+            {
+                Destroy(sea);
+                text.text = "Good job you got all of them! ";
+                message.SetActive(true);
+            }
         }
     }
     // Start is called before the first frame update
