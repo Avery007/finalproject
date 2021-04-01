@@ -849,3 +849,162 @@ Received Import Request.
 Start importing Assets/SuspensefulUnderscoreMusic2019-01-31_-_A_World_In_Trouble_-_David_Fesliyan.mp3 using Guid(a9cafb332185c554fac9371a9747713b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08d691ff335a1b9dc3b3237e709236ca') in 0.232693 seconds
   Import took 0.238990 seconds .
 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002134 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.68 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+[ScriptCompilation] NOT recompiling all scripts because this is an import worker process. Reason to compile was: Define symbols changed
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.080 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.56 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1197 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 81.2 MB.
+System memory in use after: 81.3 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1747.
+Total: 5.852400 ms (FindLiveObjects: 0.794700 ms CreateObjectMapping: 0.149300 ms MarkObjects: 4.770800 ms  DeleteObjects: 0.133200 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 643.774918 seconds.
+  path: Assets/RPGMonsterPartnersPBRPolyart/Materials/PBRDefault.mat
+  artifactKey: Guid(c3facc6536b8be44db48df63cd0279e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPGMonsterPartnersPBRPolyart/Materials/PBRDefault.mat using Guid(c3facc6536b8be44db48df63cd0279e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c1ccbf99525b0872899612920e263bc') in 0.227011 seconds
+  Import took 0.230826 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000303 seconds.
+  path: Assets/RPGMonsterPartnersPBRPolyart/Materials/Skybox_Mat.mat
+  artifactKey: Guid(8dd528f4148d7344ea60e001bea3b53d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPGMonsterPartnersPBRPolyart/Materials/Skybox_Mat.mat using Guid(8dd528f4148d7344ea60e001bea3b53d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65ae15b18ef51c26b3e5edcf2000e873') in 0.069307 seconds
+  Import took 0.073055 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000298 seconds.
+  path: Assets/RPGMonsterPartnersPBRPolyart/Materials/Stage.mat
+  artifactKey: Guid(8a25b6cb45667e2478a4a9729a016ffb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPGMonsterPartnersPBRPolyart/Materials/Stage.mat using Guid(8a25b6cb45667e2478a4a9729a016ffb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90c98b369920aa68cd0c6a4a61b56593') in 0.290342 seconds
+  Import took 0.294683 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000329 seconds.
+  path: Assets/RPGMonsterPartnersPBRPolyart/Materials/PolyartDefault.mat
+  artifactKey: Guid(cce105f52f5504843a9896a9e1aeccd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPGMonsterPartnersPBRPolyart/Materials/PolyartDefault.mat using Guid(cce105f52f5504843a9896a9e1aeccd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5731a33abb9354b5f4a9f38800953a41') in 0.057679 seconds
+  Import took 0.062345 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.068447 seconds.
+  path: Assets/RPGMonsterPartnersPBRPolyart/Meshes/BeholderMesh.fbx
+  artifactKey: Guid(902eedcaf6164ab4aa84bee782b015a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPGMonsterPartnersPBRPolyart/Meshes/BeholderMesh.fbx using Guid(902eedcaf6164ab4aa84bee782b015a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73db39085a2d058d11837332cd6eedab') in 0.214840 seconds
+  Import took 0.219790 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000380 seconds.
+  path: Assets/RPGMonsterPartnersPBRPolyart/Meshes/ChestMonsterMesh.fbx
+  artifactKey: Guid(ca0980e90982fe6468542f951647d58c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPGMonsterPartnersPBRPolyart/Meshes/ChestMonsterMesh.fbx using Guid(ca0980e90982fe6468542f951647d58c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d8ed03e037ca5b2c6e8f4f94505729a') in 0.074574 seconds
+  Import took 0.078830 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000334 seconds.
+  path: Assets/RPGMonsterPartnersPBRPolyart/Meshes/ChestMonsterPBRMesh.fbx
+  artifactKey: Guid(97e7b2e9aff997844b8b8dd53b0fffc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPGMonsterPartnersPBRPolyart/Meshes/ChestMonsterPBRMesh.fbx using Guid(97e7b2e9aff997844b8b8dd53b0fffc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be5bbc8527622621728e40f50066d83a') in 0.084843 seconds
+  Import took 0.089454 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000318 seconds.
+  path: Assets/RPGMonsterPartnersPBRPolyart/Meshes/StageMesh.fbx
+  artifactKey: Guid(b5a28e42e2d833c4c8b1101cb07d8e8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPGMonsterPartnersPBRPolyart/Meshes/StageMesh.fbx using Guid(b5a28e42e2d833c4c8b1101cb07d8e8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '387859785426a8b45e52d55c2f94fdac') in 0.076957 seconds
+  Import took 0.081504 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000314 seconds.
+  path: Assets/RPGMonsterPartnersPBRPolyart/Meshes/BeholderPBRMesh.fbx
+  artifactKey: Guid(508a4bc4f3fb8b242b65c276ab61a344) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPGMonsterPartnersPBRPolyart/Meshes/BeholderPBRMesh.fbx using Guid(508a4bc4f3fb8b242b65c276ab61a344) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '523601e7973caa318acef87a8f4f7eb2') in 0.072390 seconds
+  Import took 0.076526 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.435357 seconds.
+  path: Assets/RPGMonsterPartnersPBRPolyart/Textures/AlbedoPBR.png
+  artifactKey: Guid(2d208b8c3a66e434b84db7315fd6abc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPGMonsterPartnersPBRPolyart/Textures/AlbedoPBR.png using Guid(2d208b8c3a66e434b84db7315fd6abc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '707769b94a1d881fa3fe2401eeaf11f7') in 0.088447 seconds
+  Import took 0.092478 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000311 seconds.
+  path: Assets/RPGMonsterPartnersPBRPolyart/Textures/AlbedoPolyart.png
+  artifactKey: Guid(604e84ac6448fce408ed7424b8f00403) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPGMonsterPartnersPBRPolyart/Textures/AlbedoPolyart.png using Guid(604e84ac6448fce408ed7424b8f00403) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57ac1af82c3dbd695bc9e88df5657e55') in 0.058133 seconds
+  Import took 0.062109 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000400 seconds.
+  path: Assets/RPGMonsterPartnersPBRPolyart/Textures/MSPBR.png
+  artifactKey: Guid(6b52defba4fb3ab4184341d63c2dc415) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPGMonsterPartnersPBRPolyart/Textures/MSPBR.png using Guid(6b52defba4fb3ab4184341d63c2dc415) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '998826f06a723614eb6cc8b8c857977c') in 0.042190 seconds
+  Import took 0.047320 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000298 seconds.
+  path: Assets/RPGMonsterPartnersPBRPolyart/Textures/AlbedoPolyart.png
+  artifactKey: Guid(604e84ac6448fce408ed7424b8f00403) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPGMonsterPartnersPBRPolyart/Textures/AlbedoPolyart.png using Guid(604e84ac6448fce408ed7424b8f00403) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57ac1af82c3dbd695bc9e88df5657e55') in 0.040565 seconds
+  Import took 0.044530 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000458 seconds.
+  path: Assets/RPGMonsterPartnersPBRPolyart/Textures/AOPBR.png
+  artifactKey: Guid(908c27fd0c96c1f4ca10417deb1ab758) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPGMonsterPartnersPBRPolyart/Textures/AOPBR.png using Guid(908c27fd0c96c1f4ca10417deb1ab758) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b456823a5b5b36e8ef6f9a33a1f2e343') in 0.048572 seconds
+  Import took 0.053706 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002117 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.39 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.592 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.63 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1197 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 92.6 MB.
+System memory in use after: 92.7 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1788.
+Total: 3.664600 ms (FindLiveObjects: 0.301000 ms CreateObjectMapping: 0.050500 ms MarkObjects: 3.194100 ms  DeleteObjects: 0.116400 ms)
+
