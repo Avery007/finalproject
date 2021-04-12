@@ -7,11 +7,14 @@ public class kill : MonoBehaviour
     // Start is called before the first frame update
     public GameObject player;
     //public GameObject text;
+    public Transform target;
+ 
+    //public GameObject text;
+    public GameObject cube;
 
-
-    private void OnCollisionEnter(Collision collision)
+    private void OnTriggerEnter(Collider collision)
     {
-        if (collision.collider.gameObject == player)
+        if (collision.gameObject == player)
         {
             Debug.Log("detection");
             Vector3 force = new Vector3(10, 50, 2);
@@ -30,6 +33,14 @@ public class kill : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-
+        
+            if (cube != null)
+            {
+                //this.transform.position += (this.transform.position - target.position).normalized * speed * Time.deltaTime;
+                //this.transform.position = Vector3.Lerp(this.transform.position, target.position, 0.1f);
+                this.transform.Translate(Vector3.Normalize(target.position - this.transform.position) * 0.05f);
+            }
+        
     }
 }
+

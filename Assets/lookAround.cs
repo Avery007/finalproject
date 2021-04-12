@@ -1,56 +1,32 @@
-#if ENABLE_INPUT_SYSTEM 
-using UnityEngine.InputSystem;
-#endif
-
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
 public class lookAround : MonoBehaviour
 {
-    public float mouseSensitivity = 10f;
-
-    public Transform playerBody;
-
-    float xRotation = 10f;
+    // public Transform player;
+    float speedH = 3.0f;
+    float speedV = 3.0f;
+    float yaw = 0.0f;
+    float pitch = 0.0f;
 
     // Start is called before the first frame update
     void Start()
     {
-        Cursor.lockState = CursorLockMode.Locked;
+
+
     }
 
     // Update is called once per frame
-    void Update()
+    void FixedUpdate()
     {
-#if ENABLE_INPUT_SYSTEM
-        float mouseX = 0, mouseY = 0;
+        yaw += speedH * Input.GetAxis("Mouse X");
+        pitch -= speedV * Input.GetAxis("Mouse Y");
 
-        if (Mouse.current != null)
-        {
-            var delta = Mouse.current.delta.ReadValue() / 15.0f;
-            mouseX += delta.x;
-            mouseY += delta.y;
-        }
-        if (Gamepad.current != null)
-        {
-            var value = Gamepad.current.rightStick.ReadValue() * 2;
-            mouseX += value.x;
-            mouseY += value.y;
-        }
+        yaw = Mathf.Clamp(yaw, -60f, 60f);
+        pitch = Mathf.Clamp(pitch, -50f, 30f);
 
-        mouseX *= mouseSensitivity * Time.deltaTime;
-        mouseY *= mouseSensitivity * Time.deltaTime;
-#else
-        float mouseX = Input.GetAxis("Mouse X") * mouseSensitivity * Time.deltaTime;
-        float mouseY = Input.GetAxis("Mouse Y") * mouseSensitivity * Time.deltaTime;
-#endif
-
-        xRotation -= mouseY;
-        xRotation = Mathf.Clamp(xRotation, -90f, 90f);
-
-        transform.localRotation = Quaternion.Euler(xRotation, 0f, 0f);
-
-        playerBody.Rotate(Vector3.up * mouseX);
+        transform.eulerAngles = new Vector3(pitch, yaw, 0.0f);
+        // https://www.youtube.com/watch?v=lYIRm4QEqro
     }
 }
