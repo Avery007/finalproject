@@ -12,6 +12,7 @@ public class kill : MonoBehaviour
     //public GameObject text;
     public GameObject cube;
 
+
     private void OnTriggerEnter(Collider collision)
     {
         if (collision.gameObject == player)
@@ -33,8 +34,9 @@ public class kill : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
-            if (cube != null)
+        float disX = this.transform.position.x - player.transform.position.x;
+        float disZ = this.transform.position.z - player.transform.position.z;
+        if (disZ<20&& disX<20)
             {
                 //this.transform.position += (this.transform.position - target.position).normalized * speed * Time.deltaTime;
                 //this.transform.position = Vector3.Lerp(this.transform.position, target.position, 0.1f);
