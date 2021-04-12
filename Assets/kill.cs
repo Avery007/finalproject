@@ -9,7 +9,7 @@ public class kill : MonoBehaviour
     //public GameObject text;
     public Transform target;
 
-    //public GameObject text;
+    public UnityEngine.UI.Text text;
     public GameObject ocean;
 
 
@@ -21,6 +21,7 @@ public class kill : MonoBehaviour
             Vector3 force = new Vector3(10, 50, 2);
            player.GetComponent<Rigidbody>().isKinematic=false;
             player.GetComponent<Rigidbody>().AddForce(force);
+            text.text = "Sorry you die on the way!";
             //Destroy(collision.collider.gameObject);
             //text.SetActive(true);
 

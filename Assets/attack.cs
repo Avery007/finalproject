@@ -8,8 +8,8 @@ public class attack : MonoBehaviour
         // Start is called before the first frame update
         public Transform target;
         public GameObject player;
-        //public GameObject text;
-        public GameObject cube;
+    public UnityEngine.UI.Text text;
+    public GameObject cube;
         private void OnTriggerEnter(Collider collision)
     {
         Debug.Log("check");
@@ -19,10 +19,10 @@ public class attack : MonoBehaviour
                 Vector3 force = new Vector3(100, 100, 5);
             player.GetComponent<Rigidbody>().isKinematic = false;
             player.GetComponent<Rigidbody>().AddForce(force);
-                //text.SetActive(true);
-                //Destroy(collision.collider.gameObject);
+            text.text = "Sorry you die on the way!";
+            //Destroy(collision.collider.gameObject);
 
-            }
+        }
         }
         void Start()
         {
