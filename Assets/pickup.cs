@@ -6,7 +6,7 @@ public class pickup : MonoBehaviour
 {
     public GameObject player;
     public GameObject sea;
-
+  
     public UnityEngine.UI.Text text;
     private static int number = 0;
     public GameObject message;
@@ -24,6 +24,8 @@ public class pickup : MonoBehaviour
             if (number == 12)
             {
                 Destroy(sea);
+               //estroy(mushroom);
+               //estroy(monster);
                 text.text = "Good job you got all of them! ";
                 message.SetActive(true);
             }
