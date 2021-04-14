@@ -23,6 +23,35 @@ public class movement : MonoBehaviour
             //Vector3 change = this.transform.TransformVector(0.005f, 0, 0);
 
             this.transform.position = this.transform.position + change;
+            if (this.transform.position.x > 182)
+            {
+                Vector3 newX = this.transform.position;
+                newX.x = 182;
+                this.transform.position = newX;
+
+            }
+            if (this.transform.position.x < -182)
+            {
+                Vector3 newX = this.transform.position;
+                newX.x = -182;
+                this.transform.position = newX;
+
+            }
+            if (this.transform.position.z < -182)
+            {
+                Vector3 newZ = this.transform.position;
+                newZ.z = -180;
+                this.transform.position = newZ;
+
+            }
+            if (this.transform.position.z > 182)
+            {
+                Vector3 newZ = this.transform.position;
+                newZ.z = 182;
+                this.transform.position = newZ;
+
+            }
+
             //transform.TransformPoint(vector);
             //this.transform.TransformPoint(new Vector3(0.5f, 0, 0));
 
@@ -32,24 +61,108 @@ public class movement : MonoBehaviour
         if (Input.GetKey(KeyCode.A))
         {  
             this.transform.position = this.transform.position - change;
+            if (this.transform.position.x < -185)
+            {
+                Vector3 newX = this.transform.position;
+                newX.x = -185;
+                this.transform.position = newX;
+
+            }
+            if (this.transform.position.x > 185)
+            {
+                Vector3 newX = this.transform.position;
+                newX.x = 185;
+                this.transform.position = newX;
+
+            }
+            if (this.transform.position.z < -185)
+            {
+                Vector3 newZ = this.transform.position;
+                newZ.z = -185;
+                this.transform.position = newZ;
+
+            }
+            if (this.transform.position.z > 185)
+            {
+                Vector3 newZ = this.transform.position;
+                newZ.z = 185;
+                this.transform.position = newZ;
+
+            }
+
         }
 
         if (Input.GetKey(KeyCode.W))
         {
-           // if (this.transform.position.z > 170)
-            //{
-               // this.transform.position= this.transform.position;
-           // }
-         this.transform.position = this.transform.position + changeVertical; 
+            this.transform.position = this.transform.position + changeVertical;
+            if (this.transform.position.z > 185)
+            {
+                Vector3 newZ = this.transform.position;
+                newZ.z = 185;
+                this.transform.position = newZ;
+                
+            }
+            if (this.transform.position.z < -185)
+            {
+                Vector3 newZ = this.transform.position;
+                newZ.z = -185;
+                this.transform.position = newZ;
+
+            }
+            if (this.transform.position.x < -185)
+            {
+                Vector3 newX = this.transform.position;
+                newX.x = -185;
+                this.transform.position = newX;
+
+            }
+            if (this.transform.position.x > 185)
+            {
+                Vector3 newX = this.transform.position;
+                newX.x = 185;
+                this.transform.position = newX;
+
+            }
+
         }
 
         if (Input.GetKey(KeyCode.S))
         {
             this.transform.position = this.transform.position - changeVertical;
+            if (this.transform.position.z <-185)
+            {
+                Vector3 newZ = this.transform.position;
+                newZ.z = -185;
+                this.transform.position = newZ;
+
+            }
+            if (this.transform.position.z > 185)
+            {
+                Vector3 newZ = this.transform.position;
+                newZ.z = 185;
+                this.transform.position = newZ;
+
+            }
+            if (this.transform.position.x < -185)
+            {
+                Vector3 newX = this.transform.position;
+                newX.x = -185;
+                this.transform.position = newX;
+
+            }
+            if (this.transform.position.x > 185)
+            {
+                Vector3 newX = this.transform.position;
+                newX.x = 185;
+                this.transform.position = newX;
+
+            }
+
         }
 
         if (Input.GetKey(KeyCode.E))
         {
+
             this.GetComponent<Transform>().Rotate(rotatingL);
         }
 
